@@ -1,21 +1,46 @@
+
 button {
     display: inline-block;
     background-color: #38a3a5;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
+    height: 20px;
+}
+.connect {
+    position: relative;
+}
+.connect button {
+    background-color: gray;
+    position: absolute;
+    bottom: 10%;
+    right: 150px;
+    width: 10%;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
 }
 .box  {
     display: flex;
     justify-content: space-between;
+    margin-top: 0%;
 }
 .box :first-child {
-    width: 302px;
-    /* border: none;
-    cursor: pointer; */
+    width: 297px;
+    border: none;
+    cursor: pointer;
 }
 .box1 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1:first-child {
+    margin-left: 39.7%;
+    margin-right: 39.7%;
+}
+.nom, .prenom {
+    width: 125px;
 }
 h4,p {
     text-align: center;
@@ -45,4 +70,8 @@ input {
 }
 .checkbox {
     cursor: pointer;
+}
+.valider {
+    width: 10%;
+    border-radius: 3px;
 }
