@@ -1,3 +1,28 @@
+button {
+    display: inline-block;
+    background-color: #38a3a5;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+.box  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+.box :first-child {
+    width: 297px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.form {
+    margin-top: 10%;
+}
+.form label, button{
+    margin-top: 2%;
+}
 label,input {
     text-align: left;
     display: block;
@@ -5,38 +30,34 @@ label,input {
     margin-right: auto;
     width: 300px;
 }
-button {
-    background-color: rgb(56, 163, 165);
-    color: rgb(255, 255, 255);
-}
-
 .bouton1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    width: 10%;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
 }
-
 .bouton2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    width: 10%;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
 }
-
 .box {
     display: flex;
     align-items: last baseline;
     justify-content:space-between;
 }
-.box :first-child {
-    width: 302px;
-    align-self: center;
-    border: none;
-    cursor: pointer;
-}
-
 h4 {
     text-align: center;
     color: rgb(99, 187, 191);
+    margin-top: 5%;
 }
