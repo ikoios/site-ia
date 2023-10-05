@@ -1,0 +1,14 @@
+button {
+    background-color: rgb(56, 163, 165);
+    color: rgb(255, 255, 255);
+}
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.box :first-child {
+    width: 302px;
+    border: none;
+    cursor: pointer;
+}

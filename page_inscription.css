@@ -1,0 +1,48 @@
+button {
+    display: inline-block;
+    background-color: #38a3a5;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+.box  {
+    display: flex;
+    justify-content: space-between;
+}
+.box :first-child {
+    width: 302px;
+    /* border: none;
+    cursor: pointer; */
+}
+.box1 {
+    display: flex;
+}
+h4,p {
+    text-align: center;
+    color: rgb(56, 163, 165);
+}
+h5 {
+    text-align: center;
+    color: rgb(255, 149, 0);
+}
+label, input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+label {
+    text-align: center;
+    color: rgb(56, 163, 165)
+}
+.email, .password1, .password2, .confirm {
+    width: 300px;
+}
+.text {
+    width: 100px;
+}
+input {
+    cursor: text;
+}
+.checkbox {
+    cursor: pointer;
+}
