@@ -8,6 +8,7 @@ button {
 }
 .connect {
     position: relative;
+    height: 20px;
 }
 .connect button {
     background-color: gray;

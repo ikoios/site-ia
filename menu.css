@@ -12,9 +12,9 @@ button {
 .connect button {
     background-color: gray;
     position: absolute;
-    bottom: 10%;
+    bottom: 30px;
     right: 150px;
-    width: 10%;
+    width: 150px;
     height: 20px;
     border: none;
     border-radius: 3px;
@@ -22,10 +22,9 @@ button {
 .box  {
     display: flex;
     justify-content: space-between;
-    margin-top: 1px;
 }
-.box :first-child {
-    width: 297px;
+.box button {
+    width: 19.9%;
     border: none;
     cursor: pointer;
 }

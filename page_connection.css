@@ -6,22 +6,23 @@ button {
     cursor: pointer;
     height: 20px;
 }
+.connect {
+    position: relative;
+}
 .box  {
     display: flex;
     justify-content: space-between;
-    margin-top: 1px;
 }
-.box :first-child {
-    width: 297px;
+.box button {
+    width: 300px;
     border: none;
     cursor: pointer;
-    margin-top: 0px;
 }
 .form {
-    margin-top: 10%;
+    margin-top: 150px;
 }
-.form label, button{
-    margin-top: 2%;
+.form label, .form button{
+    margin-top: 30px;
 }
 label,input {
     text-align: left;
@@ -35,7 +36,7 @@ label,input {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    width: 10%;
+    width: 150px;
     height: 20px;
     border: none;
     border-radius: 3px;
@@ -45,16 +46,11 @@ label,input {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    width: 10%;
+    width: 150px;
     height: 20px;
     border: none;
     border-radius: 3px;
     text-decoration: none;
-}
-.box {
-    display: flex;
-    align-items: last baseline;
-    justify-content:space-between;
 }
 h4 {
     text-align: center;

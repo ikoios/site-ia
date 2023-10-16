@@ -9,12 +9,21 @@ button {
 .connect {
     position: relative;
 }
-.connect button {
+.connect .btn1 {
     background-color: gray;
     position: absolute;
-    bottom: 10%;
+    bottom: 30px;
     right: 150px;
-    width: 10%;
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.connect .btn {
+    background-color: gray;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
     height: 20px;
     border: none;
     border-radius: 3px;
@@ -22,10 +31,9 @@ button {
 .box  {
     display: flex;
     justify-content: space-between;
-    margin-top: 1px;
 }
-.box :first-child {
-    width: 297px;
+.box button {
+    width: 300px;
     border: none;
     cursor: pointer;
 }
@@ -35,8 +43,13 @@ button {
     align-items: center;
 }
 .box1:first-child {
-    margin-left: 39.7%;
-    margin-right: 39.7%;
+    padding-left: 39.8%;
+    padding-right: 39.8%;
+
+    /* margin-left: 598px;
+    margin-right: 598px; */
+    /* margin-left: 39.7%; */
+    /* margin-right: 39.7%; */
 }
 .nom, .prenom {
     width: 125px;
