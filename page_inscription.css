@@ -1,10 +1,17 @@
 button {
-    display: inline-block;
     background-color: #38a3a5;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     height: 20px;
+}
+body {
+    margin: 0px;
+}
+.img {
+    width: 1520px;
+    height: 300px;
+    margin: none;
 }
 .connect {
     position: relative;
@@ -19,37 +26,70 @@ button {
     border: none;
     border-radius: 3px;
 }
-.connect .btn {
+.connect .btn2 {
     background-color: gray;
     position: absolute;
     bottom: 30px;
-    right: 100px;
+    right: 320px;
+    width: 100px;
     height: 20px;
     border: none;
     border-radius: 3px;
 }
-.box  {
-    display: flex;
-    justify-content: space-between;
+nav {
+    width: 100%;
+    background-color: #38a3a5;
 }
-.box button {
-    width: 300px;
-    border: none;
-    cursor: pointer;
+nav ul {
+    list-style-type : none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+nav ul li {
+    width: 25%;
+    position: relative;
+}
+.a {
+    border-right: 3px solid;
+    border-color: aliceblue;
+}
+.b {
+    border-left: 3px  solid;
+    border-color: aliceblue;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #2f8788;
+    background-color: #38a3a5;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li {
+    color: aliceblue;
+    float: none;
+    width: 100%;
+    text-align: left;
 }
 .box1 {
-    display: flex;
+    /* display: inline-block !important; */
     justify-content: space-between;
     align-items: center;
 }
 .box1:first-child {
+    display: flex;
     padding-left: 39.8%;
     padding-right: 39.8%;
-
-    /* margin-left: 598px;
-    margin-right: 598px; */
-    /* margin-left: 39.7%; */
-    /* margin-right: 39.7%; */
 }
 .nom, .prenom {
     width: 125px;
@@ -71,7 +111,7 @@ label {
     text-align: center;
     color: rgb(56, 163, 165)
 }
-.email, .password1, .password2, .confirm {
+.email, .mdp, .coonfirm, .confirm {
     width: 300px;
 }
 .text {
@@ -87,4 +127,23 @@ input {
     width: 10%;
     border-radius: 3px;
     height: 20px;
+}
+.social {
+    display:inline-block;
+    margin-left: 40.2%;
+    margin-top: 50px;
+}
+.social button {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px ;
+    border: 1px solid;
+    border-color: black;
 }
