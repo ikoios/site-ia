@@ -1,15 +1,22 @@
 button {
-    display: inline-block;
     background-color: #38a3a5;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     height: 20px;
 }
+body {
+    margin: 0px;
+}
+.img {
+    width: 1536px;
+    height: 300px;
+    margin: none;
+}
 .connect {
     position: relative;
 }
-.connect button {
+.connect .btn1 {
     background-color: gray;
     position: absolute;
     bottom: 30px;
@@ -19,12 +26,48 @@ button {
     border: none;
     border-radius: 3px;
 }
-.box  {
-    display: flex;
-    justify-content: space-between;
+nav {
+    width: 100%;
+    background-color: #38a3a5;
 }
-.box button {
-    width: 19.96%;
-    border: none;
-    cursor: pointer;
+nav ul {
+    list-style-type : none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+nav ul li {
+    width: 25%;
+    position: relative;
+}
+.a {
+    border-right: 3px solid;
+    border-color: aliceblue;
+}
+.b {
+    border-left: 3px  solid;
+    border-color: aliceblue;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #2f8788;
+    background-color: #38a3a5;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li {
+    color: aliceblue;
+    float: none;
+    width: 100%;
+    text-align: left;
 }
