@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./page_brief_projet.css">
+    <title>Brief projet</title>
+</head>
+<body>
+<main>
+
+    <form style="text-align: center;" action="#" method="get">    
+        <h1>Votre appel à projet</h1>
+        <hr>
+        <h4>* champs obligatoires</h4>
+        
+        <label for="projetname">Nom de votre projet* :<br>
+            <input type="text" name="projetname"
+            placeholder="Ajouter un commentaire." id="projetname" required >
+        </label><br><br>
+        
+        <label for="catégorie">Catégorie du projet* :</label><br>
+        
+        <label for="design">
+            <input type="checkbox" name="catégorie"
+            value="design" id="design" > Design
+        </label><br>
+
+        <label for="texte">
+        <input type="checkbox" name="catégorie"
+            value="texte" id="texte"> Texte
+        </label><br>
+
+        <label for="vidéo">
+            <input type="checkbox" name="catégorie"
+                value="vidéo" id="vidéo"> Vidéo
+            </label><br>
+
+        <label for="musique">
+        <input type="checkbox" name="catégorie"
+         value="musique" id="musique"> Musique
+        </label><br><br>
+
+
+        <label for="projetdesc">Descriptif du projet* :<br>
+            <textarea name="projetdesc" id="projetdesc" cols="33" rows="5" placeholder="Ajouter un commentaire." required >
+                Votre descriptif...
+             </textarea> 
+            </label><br><br>
+
+        <label for="objectifs">Objectifs* :<br>
+            <input type="text" name="objectifs"
+            placeholder="Ajouter un commentaire." id="objectifs" required >
+            </label><br><br>
+
+            <label for="cible">Public cible* :<br>
+                <input type="text" name="cible"
+                placeholder="Ajouter un commentaire." id="cible" required >
+                </label><br><br>
+
+                <label for="message">Message et ton* :<br>
+                    <input type="text" name="message"
+                    placeholder="Ajouter un commentaire." id="message" required >
+                    </label><br><br>
+
+                    <label for="ressources">Ressources et livrables* :<br>
+                        <input type="text" name="ressources"
+                        placeholder="Ajouter un commentaire." id="ressources" required >
+                        </label><br><br>
+
+                    <label for="référence">Envoyer un ficher d'inspiration : <br>
+                        <input type="file" value="joindre un fichier" id="référence" name="référence" accept="image/png, image/jpeg" />
+                    </label><br><br>
+                        
+
+                        <label for="budget">Budget* :<br>
+                            <input type="number" name="budget"
+                            value="50" id="budget" min="50" max="100000" step="10">€
+                            </label><br><br>
+
+Acceptation des conditions générales de ventes:* (CGV) <br>
+<label for="accepte">
+    <input type="checkbox" name="CGV" value="accepte" id="accepte" required >J'accepte
+</label>
+
+<label for="refuse">
+    <input type="checkbox" name="CGV" value="refuse" id="refuse">Je refuse
+</label><br><br>
+
+  <label for="submit">      
+  <input type="submit" value="Soumettre votre projet"><br>
+</label><br>       
+
+    </form></main>
+</body>
+</html>

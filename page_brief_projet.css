@@ -1,0 +1,20 @@
+h4{
+    font-family: cursive;
+}
+
+main {
+    border: 5px solid rgb(56, 163, 165);
+}
+
+body{
+    border: 100px solid rgba(127, 116, 116, 0.21);
+    }
+
+[type="submit"] {background-color: rgb(56, 163, 165) ;
+    color : black;
+    border-radius : 30px;
+}
+
+textarea {
+    text-align: left; 
+}
