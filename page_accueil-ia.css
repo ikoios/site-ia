@@ -4,5 +4,8 @@ button {
     border: none;
     cursor: pointer;
     height: 20px;
-    
+}
+.btn:hover {
+    background-color: #959595;
+    box-shadow: 0px 0px 5px black;
 }
