@@ -6,10 +6,9 @@ body {
     position: absolute;
     top: 20px;
     left: 60px;
-
 }
 .img {
-    width: 1536px;
+    width: 1519px;
     height: 300px;
     margin: none;
 }
@@ -64,6 +63,8 @@ nav a {
 }
 nav > ul li:hover .sous{
     display: block;
+    border-top: 1px solid;
+    border-color: aliceblue;
 }
 .sous li {
     color: aliceblue;
@@ -71,8 +72,14 @@ nav > ul li:hover .sous{
     width: 100%;
     text-align: left;
 }
+.sous li a {
+    text-align: left;
+}
+.sous li a:hover {
+    background-color: #41bec0;
+}
 .footer img {
-    width: 1541px;
+    width: 1524px;
     height: 250px;
     margin-bottom: 0px;
 }
