@@ -1,27 +1,81 @@
 button {
-    display: inline-block;
     background-color: #38a3a5;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     height: 20px;
 }
-.box  {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1px;
+body {
+    margin: 0px;
 }
-.box :first-child {
-    width: 297px;
+.img {
+    width: 1519px;
+    height: 300px;
+    margin: none;
+}
+.connect {
+    position: relative;
+}
+.connect .btn2 {
+    background-color: gray;
+    position: absolute;
+    bottom: 30px;
+    right: 320px;
+    width: 100px;
+    height: 20px;
     border: none;
-    cursor: pointer;
-    margin-top: 0px;
+    border-radius: 3px;
+}
+nav {
+    width: 100%;
+    background-color: #38a3a5;
+}
+nav ul {
+    list-style-type : none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+nav ul li {
+    width: 25%;
+    position: relative;
+}
+.a {
+    border-right: 3px solid;
+    border-color: aliceblue;
+}
+.b {
+    border-left: 3px  solid;
+    border-color: aliceblue;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #2f8788;
+    background-color: #38a3a5;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li {
+    color: aliceblue;
+    float: none;
+    width: 100%;
+    text-align: left;
 }
 .form {
-    margin-top: 10%;
+    margin-top: 150px;
 }
-.form label, button{
-    margin-top: 2%;
+.form label, .form button{
+    margin-top: 30px;
 }
 label,input {
     text-align: left;
@@ -35,7 +89,7 @@ label,input {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    width: 10%;
+    width: 150px;
     height: 20px;
     border: none;
     border-radius: 3px;
@@ -45,16 +99,11 @@ label,input {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    width: 10%;
+    width: 150px;
     height: 20px;
     border: none;
     border-radius: 3px;
     text-decoration: none;
-}
-.box {
-    display: flex;
-    align-items: last baseline;
-    justify-content:space-between;
 }
 h4 {
     text-align: center;
