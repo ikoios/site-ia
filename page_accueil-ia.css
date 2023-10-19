@@ -8,6 +8,13 @@ button {
 body {
     margin: 0px;
 }
+.logo {
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+
+}
 .img {
     width: 1536px;
     height: 300px;
