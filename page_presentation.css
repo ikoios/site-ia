@@ -1,0 +1,32 @@
+button {
+    display: inline-block;
+    background-color: #38a3a5;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+.connect {
+    position: relative;
+    height: 20px;
+}
+.connect button {
+    background-color: gray;
+    position: absolute;
+    bottom: 10%;
+    right: 150px;
+    width: 10%;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.box  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+.box :first-child {
+    width: 297px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,3 +1,26 @@
+button {
+    background-color: #38a3a5;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+.connect .btn2 {
+    background-color: gray;
+    position: absolute;
+    bottom: 30px;
+    right: 320px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.form {
+    margin-top: 150px;
+}
+.form label, .form button{
+    margin-top: 30px;
+}
 label,input {
     text-align: left;
     display: block;
@@ -5,38 +28,29 @@ label,input {
     margin-right: auto;
     width: 300px;
 }
-button {
-    background-color: rgb(56, 163, 165);
-    color: rgb(255, 255, 255);
-}
-
 .bouton1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
 }
-
 .bouton2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-}
-
-.box {
-    display: flex;
-    align-items: last baseline;
-    justify-content:space-between;
-}
-.box :first-child {
-    width: 302px;
-    align-self: center;
+    width: 150px;
+    height: 20px;
     border: none;
-    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
 }
-
 h4 {
     text-align: center;
     color: rgb(99, 187, 191);
+    margin-top: 5%;
 }

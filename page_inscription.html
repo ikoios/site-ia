@@ -3,49 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page d'inscription</title>
+    <link rel="icon" href="./images/Logo site fil rouge.png">
     <link rel="stylesheet" href="page_inscription.css">
+    <link rel="stylesheet" href="./header_footer.css">
 </head>
 <body>
-    <main>
-        <header>
-            <img src="./matrice_header.jpeg" alt="image de matrice" width="100%" height="300">
-        </header>
+    <header>
+        <div class="connect" style="height: 299.9px;">
+            <img src="./images/Logo site fil rouge.png" alt="logo" width="200px" class="logo">
+            <img class="img" src="./images/matrice_header.jpeg" alt="image de matrice" >
+            <a href="page_connection.html">
+                <button class="btn1">Connection</button>
+            </a>
+            <a href="page_acceuil_ia.html">
+                <button class="btn2">
+                    <img src="./images/Vector home.png" alt="Icone home" height="10px" width="15px">
+                </button>
+            </a>
+        </div>
         <nav>
-            <div class="box">
-                <div>
-                    <button>Présentation IA</button>
-                </div>
-                <div>
-                    <button>Actualités</button>
-                </div>
-                <div>
-                    <button>Freelance IA</buton>
-                </div>
-                <div>
-                    <button>Forum</buton>    
-                </div>
-                <div>
-                    <button>Contact</buton>
-                </div>
-            </div>    
+            <ul>
+                <li class="a"><a href="#">Présentation IA</a>
+                    <ul class="sous">
+                        <li>Alors qu'un certain nombre de définitions de l'intelligence artificielle (IA) ont été proposées au cours des dernières décennies, John McCarthy avance la définition suivante:</br>
+                            <br> "C'est la science et l'ingénierie de la fabrication de machines intelligentes, en particulier de programmes informatiques intelligents. Elle est liée à la tâche similaire qui consiste à utiliser des ordinateurs pour comprendre l'intelligence humaine, mais l'IA ne doit pas se limiter aux méthodes qui sont biologiquement observables."</br></li>
+                    </ul>
+                </li>
+                <li class="a"><a href="./Actualités.html">Actualités</a>
+                    <ul class="sous">
+                        <li><a href="./article ia fin humanité.html">La fin de l'humanité</a></li>
+                        <li><a href="./Article riques ou pas.html">IA, risque ou pas</a></li>
+                        <li><a href="./Article Tous robots.html">Tous robots</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Freelance IA</a>
+                    <ul class="sous">
+                        <li></li>
+                    </ul>
+                </li>
+                <li class="b"><a href="#">Contact</a></li>
+            </ul>
         </nav>
+    </header>
         <br>
         <br>
         <section>
             <h4>Créer votre compte</h4>
             <h5>* Champs obligatoires</h5>
         </section>
-        <form action="inscription">
+        <form id="form">
             <div class="box1">
                 <div>
                     <label for="nom">Votre nom*:
-                        <input  type="text" name="nom" placeholder="Nom" id="nom" required>
+                        <input class="nom"  type="text" name="nom" placeholder="Nom" id="nom" required>
                     </label>
                 </div>
                 <div>
                     <label for="prenom">Votre prénom*:
-                        <input  type="text" name="prenom" placeholder="Prénom" id="prenom" required>
+                        <input class="prenom"  type="text" name="prenom" placeholder="Prénom" id="prenom" required>
                     </label>
                 </div>
             </div>
@@ -57,18 +73,38 @@
                 <input class="date" type="date" name="date" id="date">
             </label><br>
             <label for="mdp">Nouveau mot de passe*:
-                <input class="password1" type="password" name="mdp" placeholder="Mot de passe" id="mdp" required>
+                <input class="mdp" type="password" name="mdp" placeholder="Mot de passe" id="mdp" required>
             </label><br>
             <label for="confirm">Confirmation de mot de passe*:
-                <input class="password2" type="password" name="confirm" placeholder="Confirmation mot de passe" id="mdp" required>
+                <input class="confirm" type="password" name="confirm" placeholder="Confirmation mot de passe" id="confirm" required>
             </label><br>
             <label for="oui">Acceptez vous les conditions générales de sécurité?*
                 <input class="checkbox" type="checkbox" name="cgv" value="Valider" id="oui" required>
             </label><br>
-            <label for="submit">
-                <button type="submit" name="Valider" id="submit">Valider</button>
-            </label>
+                <label for="submit">
+                    <button  class="valider" type="submit" name="Valider" id="submit">Valider</button>
+                </label>
         </form>
-    </main>
+        <div class="social">
+            <a href="https://www.facebook.com/">
+                <button>
+                    <img src="./images/Vector FB.png" alt="logo Facebook">
+                    S'incrire avec Facebook
+                </button>
+            </a>
+            <a href="https://www.google.com/">
+                <button>
+                    <img src="./images/vector g.png" alt="logo Google">
+                    S'incrire avec Google
+                </button>
+            </a>
+            <a href="https://twitter.com/">
+                <button>
+                    <img src="./images/Vector x.png" alt="logo X">
+                    S'inscrire avec Twitter
+                </button>
+            </a>
+        </div>
+        <script src="./page_inscription.js"></script>
 </body>
 </html>

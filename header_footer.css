@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+.logo {
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+.img {
+    width: 1519px;
+    height: 300px;
+    margin: none;
+}
+.connect {
+    position: relative;
+}
+.connect .btn1 {
+    background-color: gray;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+}
+nav {
+    width: 100%;
+    background-color: #38a3a5;
+}
+nav ul {
+    list-style-type : none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+nav ul li {
+    width: 25%;
+    position: relative;
+}
+.a {
+    border-right: 3px solid;
+    border-color: aliceblue;
+}
+.b {
+    border-left: 3px  solid;
+    border-color: aliceblue;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #2f8788;
+    background-color: #38a3a5;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+    border-top: 1px solid;
+    border-color: aliceblue;
+}
+.sous li {
+    color: aliceblue;
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous li a {
+    text-align: left;
+}
+.sous li a:hover {
+    background-color: #41bec0;
+}
+.footer img {
+    width: 1524px;
+    height: 250px;
+    margin-bottom: 0px;
+}
