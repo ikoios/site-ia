@@ -1,11 +1,24 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 1px 0px black;
+}
 button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #38a3a5;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     height: 20px;
+    box-shadow: 0px 1px 5px black;
+}
+button:hover {
+    box-shadow: 0px -1px 3px black;
+    background-color: #49d7da;
 }
 .connect .btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: gray;
     position: absolute;
     bottom: 30px;
@@ -13,7 +26,11 @@ button {
     width: 100px;
     height: 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
+}
+.btn2:hover {
+    background-color: #959595;
+    transform: scale(1.1);
 }
 .form {
     margin-top: 150px;
@@ -22,6 +39,7 @@ button {
     margin-top: 30px;
 }
 label,input {
+    
     text-align: left;
     display: block;
     margin-left: auto;
@@ -29,28 +47,34 @@ label,input {
     width: 300px;
 }
 .bouton1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    width: 150px;
+    width: 15%;
     height: 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .bouton2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    width: 150px;
+    width: 15%;
     height: 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     text-decoration: none;
 }
 h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(99, 187, 191);
+    color: #49d7da;
     margin-top: 5%;
+}
+h4:hover {
+    text-shadow: 0px 0px 0px black;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +13,13 @@
         <div class="connect" style="height: 299.9px;">
             <img src="./images/Logo site fil rouge.png" alt="logo" width="200px" class="logo">
             <img class="img" src="./images/matrice_header.jpeg" alt="image de matrice" >
-            <a href="page_connection.html"  class="btn1">Connection
-            </a>
-            <a href="page_acceuil_ia.html" class="btn2">
-                <img src="./images/Vector home.png" alt="Icone home" height="10px" width="15px">
-            </a>
+        </a>
+            <div class="btn1">
+                <a href="./page_connexion.html"  >Connexion</a>
+            </div>
+                <a href="page_acceuil_ia.html" class="btn2">
+                    <img src="./images/Vector home.png" alt="Icone home" height="12px" width="15px">
+                </a>
         </div>
         <nav>
             <ul>
@@ -48,9 +50,8 @@
         <section>
             <h4>Créer votre compte</h4>
             <h5>* Champs obligatoires</h5>
-        </section>
-        <form id="form">
-            <div class="box1">
+            <form id="form">
+                <div class="box1">
                 <div>
                     <label for="nom">Votre nom*:
                         <input class="nom"  type="text" name="nom" placeholder="Nom" id="nom" required>
@@ -63,9 +64,11 @@
                 </div>
             </div>
             <br>
-            <label for="email">Votre mail*:
-                <input class="email" type="email" name="email" placeholder="E-mail" id="email" required>
-            </label><br>
+            <div>
+                <label for="email">Votre mail*:
+                        <input class="email" type="email" name="email" placeholder="E-mail" id="email" required>
+                </label><br>
+            </div>
             <label for="date">Date de naissance*:
                 <input class="date" type="date" name="date" id="date">
             </label><br>
@@ -78,10 +81,10 @@
             <label for="oui">Acceptez vous les conditions générales de sécurité?*
                 <input class="checkbox" type="checkbox" name="cgv" value="Valider" id="oui" required>
             </label><br>
-                <!-- <label for="submit"> -->
+                <div class="submit">
                     <button  class="valider" type="submit" name="Valider" id="submit">Valider</button>
-                <!-- </label> -->
-        </form>
+                </div>
+                </form>
         <div class="social">
             <a href="https://www.facebook.com/">
                 <button>
@@ -102,6 +105,7 @@
                 </button>
             </a>
         </div>
+    </section>
         <script src="./page_inscription.js"></script>
 </body>
 </html>
