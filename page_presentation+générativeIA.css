@@ -17,7 +17,23 @@
   text-align: center;
   padding: 1em;
 }
-
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  position: absolute;
+  bottom: 30px;
+  right: 250px;
+  width: 100px;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.btn2:hover {
+  transform: scale(1.1);
+  background-color: #959595;
+}
 h4 {
   color : rgb(215, 145, 16)
 }

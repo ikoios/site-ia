@@ -14,7 +14,7 @@ body {
     height: 300px;
     margin: none;
 }
-a{
+a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     text-align: center;
@@ -25,6 +25,7 @@ a{
 }
 .btn1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,8 +100,66 @@ nav > ul li:hover .sous{
     box-shadow: 1px 0px 5px black;
     background-color: #49d7da;
 }
-.footer img {
-    width: 1524px;
-    height: 250px;
-    margin-bottom: 0px;
+.sous li:hover {
+    box-shadow: 1px 0px 5px black;
+    background-color: #49d7da;
+    cursor: pointer;
+}
+.logopied {
+	width: 100px;
+    
+}
+#contener {
+    display: flex;
+    position: relative;
+    width: 100%h;
+    height: 200px;
+}
+.footer .logopied {
+	border-radius: 50%;
+	position: absolute;
+	top: 40px;
+	left: 100px;
+}
+ .footer .reseausociaux {
+    position: absolute;
+    
+ }
+.mentions {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    color: white;
+    margin-top: 50px;
+}
+.nouscontacter {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    color: white;
+    margin-top: 90px;
+
+}
+
+.reseausociaux {
+    position: absolute;
+    left: 85%;
+    margin-top: 4%;
+
+}
+.xtweeter {
+    margin-left: 20px;
+}
+
+.footer .adressefooter {
+    position: absolute;
+    margin-top: 40px;
+    left: 30%;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
 }
