@@ -2,11 +2,11 @@ h4{
     font-family: cursive;
 }
 
-main {
+form {
     border: 5px solid rgb(56, 163, 165);
 }
 
-body{
+.bordergrey{
     border: 100px solid rgba(127, 116, 116, 0.21);
     }
 
@@ -18,3 +18,5 @@ body{
 textarea {
     text-align: left; 
 }
+
+/* changer taille largeur header width: 1536px; */
