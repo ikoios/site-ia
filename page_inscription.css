@@ -1,18 +1,23 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 1px 0px black;
+}
 button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #38a3a5;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     border: none;
     cursor: pointer;
     height: 20px;
+    box-shadow: 0px 2px 5px;
 }
 button:hover {
-    box-shadow: 0px 0px 5px;
+    box-shadow: 0px -2px 3px;
 }
-.valider:hover {
-    box-shadow: 0px 0px 5px black;
-    background-color: #49d7da;
-}
-.connect .btn2 {
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: gray;
     position: absolute;
     bottom: 30px;
@@ -20,11 +25,11 @@ button:hover {
     width: 100px;
     height: 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .btn2:hover {
+    transform: scale(1.1);
     background-color: #959595;
-    box-shadow: 0px 0px 5px black;
 }
 .box1 {
     justify-content: space-between;
@@ -40,11 +45,11 @@ button:hover {
 }
 h4,p {
     text-align: center;
-    color: rgb(56, 163, 165);
+    color: #49d7da;
 }
 h5 {
     text-align: center;
-    color: rgb(255, 149, 0);
+    color: #ff9500;
 }
 label, input {
     display: block;
@@ -53,7 +58,7 @@ label, input {
 }
 label {
     text-align: center;
-    color: rgb(56, 163, 165)
+    color: #49d7da;
 }
 .email, .mdp, .coonfirm, .confirm {
     width: 300px;
@@ -67,11 +72,20 @@ input {
 .checkbox {
     cursor: pointer;
 }
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .valider {
-    width: 10%;
-    border-radius: 3px;
+    width: 15%;
+    border-radius: 10px;
     height: 20px;
-    margin-left: 45.5%;
+    box-shadow: 0px 1px 5px black;
+}
+.valider:hover {
+    background-color: #49d7da;
+    box-shadow: 0px -1px 3px black;
 }
 .social {
     margin-left: 40.2%;
@@ -87,7 +101,5 @@ input {
     background-color: white;
     width: 300px;
     height: 30px;
-    border-radius: 15px 15px 15px 15px ;
-    border: 1px solid;
-    border-color: black;
+    border-radius: 15px ;
 }
