@@ -1,16 +1,16 @@
-img {
-    display: block;
-    width: 50%;
-    margin: auto;
-    border : 3px outset rgb(56, 163, 165);
-  }
+
 .img1 {
   display: block;
-  width: 50%;
+  width: 60%;
   margin: auto;
   border : 3px outset rgb(56, 163, 165);
 }
-
+.border {
+  margin: 0px;
+  border-left: 100px solid rgba(127, 116, 116, 0.21);
+  border-right: 100px solid rgba(127, 116, 116, 0.21);
+  padding: 100px;
+}
 .border1 {
   color: rgb(56, 163, 165);
   border-left: blue 15px outset;
@@ -20,10 +20,4 @@ img {
 
 h4 {
   color : rgb(215, 145, 16)
-}
-
-body {
-  margin: 0px;
-  border: 100px solid rgba(127, 116, 116, 0.21);
-  padding: 2em;
 }
